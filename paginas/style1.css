@@ -13,7 +13,7 @@ body {
 
 .box {
     width: 500px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.65);
     margin: 0 auto;
     margin-top: -5%;
     margin-bottom: 5%;
@@ -127,7 +127,7 @@ nav {
     margin-block: 25%;
     margin-top: 2%;
     margin-bottom: 6%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .65);
     color: white;
     border-radius: 20px;
    
@@ -194,7 +194,7 @@ nav {
     
     }
     nav{
-        max-width: 600px;
+        max-width: 650px;
         max-height: 40px;
         margin-bottom: 0px;
         font-size: 10px;
