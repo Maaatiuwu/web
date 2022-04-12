@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url('paginas/img/bg8.jpg') no-repeat;
+  background: url('paginas/img/bg8.gif') no-repeat;
   background-size:100% 100%;
   background-attachment: fixed;
   font-family: 'Century Gothic', sans-serif; 
@@ -106,4 +106,59 @@ nav {
     background-color: rgba(255, 255, 255, 0.164);
     transform: scale(1.1);
     border-radius: 20px;
+
+}
+
+@media screen and (max-width:800px){
+    .menu-horizontal{
+        flex-direction: row;
+        height: 30px;
+        justify-content:center;
+    }
+
+    .menu-horizontal > li > a{
+        margin-top: -5px;
+
+    }
+    .box{
+        width: 300px;
+    }
+    .box h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .box h2{
+        font-size: 12px;
+    }
+    .box h3{
+        font-size: 10px;
+    }
+    .box h4{
+        font-size: 7px;
+    }
+    .box h5{
+        font-size: 7px;
+    }
+    .box h6{
+        font-size: 6px;
+    }
+    .box p{
+        font-size: 7px;
+    }
+    .box-img2{
+        margin-top: 13px;
+        width: 30px;
+    }
+    .box ul li a{
+        font-size: 22.5px;
+    
+    }
+    nav{
+        max-width: 400px;
+        max-height: 30px;
+        font-size: 8.5px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+
+    }
 }
